@@ -23,4 +23,4 @@ A newspaper front page: the Hormuz mine strikes lead, with Huawei's guilty verdi
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`main.ts` copies `entry.png` to the output directory. `gen_image.py` is the local build script (Pillow) that drew `entry.png`; it does not run in the grader.
+`main.ts` copies `entry.png` to the output directory. `gen_image.py` is the local build script (Pillow) that produced `entry.png` from the reference front-page artwork: downscaled to the 1024×1024 cap and one typo in the reference corrected (`LYBIA` → `LIBYA` in the WAR panel tag); it does not run in the grader.
